@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ImageView as background -->
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/c"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to MicroLend"
+            android:textSize="24sp"
+            android:padding="24dp"
+            android:paddingBottom="16dp"
+            android:background="@drawable/edit_text_bg"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/buttonBudgetTracker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Budget Tracker"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/buttonExpenseTracker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expense Tracker" />
+
+        <Button
+            android:id="@+id/buttonLoanApplication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loan Application" />
+
+        <Button
+            android:id="@+id/buttonFinancialAdvice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Financial Advisory" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Need Chatbot?"
+            android:background="@drawable/edit_text_bg"
+            android:paddingLeft="12dp"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ImageView as background -->
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/g"
+        android:scaleType="centerCrop" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FinancialAdvisory"
+        android:textSize="24sp"
+        android:padding="24dp"
+        android:paddingBottom="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/editTextIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Monthly Income"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginTop="12dp"
+        android:paddingLeft="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Monthly Expenses"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginTop="12dp"
+        android:paddingLeft="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextSavings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Savings Goal"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginTop="12dp"
+        android:paddingLeft="12dp"/>
+
+    <Button
+        android:id="@+id/buttonGetAdvice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Financial Advice"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/textViewAdvice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingTop="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:paddingBottom="12dp"/>
+
+    <Button
+        android:id="@+id/buttonGoBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Back" />
+</LinearLayout>
+</FrameLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ImageView as background -->
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/e"
+        android:scaleType="centerCrop" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expense Tracker"
+            android:textSize="24sp"
+            android:padding="24dp"
+            android:paddingBottom="16dp"
+            android:background="@drawable/edit_text_bg"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/editTextExpenseAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Expense Amount"
+            android:background="@drawable/edit_text_bg"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="12dp"/>
+
+        <Button
+            android:id="@+id/buttonAddExpense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Expense"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/buttonGoBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go Back" />
+
+        <ListView
+            android:id="@+id/listViewExpenses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"/>
+
+    </LinearLayout>
+</FrameLayout>

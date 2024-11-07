@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "938361850023",
+    "project_id": "microlend-5de7a",
+    "storage_bucket": "microlend-5de7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938361850023:android:f18265c672ef8e6addb382",
+        "android_client_info": {
+          "package_name": "com.microlend.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCsv7BygK63FtZq-1rFPxnbfsqbbfZ1q0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

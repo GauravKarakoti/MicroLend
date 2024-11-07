@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ImageView as background -->
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/f"
+        android:scaleType="centerCrop" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loan Application"
+        android:textSize="24sp"
+        android:padding="24dp"
+        android:paddingBottom="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/editTextLoanAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Loan Amount"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginTop="12dp"
+        android:paddingLeft="12dp"/>
+
+    <Button
+        android:id="@+id/buttonAddLoanApplication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Loan Application"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/buttonGoBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Back" />
+
+    <ListView
+        android:id="@+id/listViewLoanApplications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg"/>
+</LinearLayout>
+</FrameLayout>
